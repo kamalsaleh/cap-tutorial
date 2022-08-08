@@ -1,0 +1,15 @@
+format: jb-book
+root: welcome
+parts:
+- caption: Preface
+  chapters:
+  - file: 00-preface
+  - file: 00-authors
+  - file: 00-cap-and-homalg-via-binder
+- caption: Chapters
+  numbered: true
+  chapters:
+  - file: 01-introduction
+  - file: 02-Installation
+  - file: 03-category-constructors
+  - file: 04-bibliography

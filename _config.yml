@@ -1,0 +1,70 @@
+#######################################################################################
+# Book settings
+title: The CAP Tutorial
+author: Kamal Saleh
+copyright: "2022. CC BY-NC-SA 4.0"
+logo: images/logo.jpeg
+repository:
+  url: https://github.com/kamalsaleh/cap-pkgs
+  path_to_book: ""  # A path to your book's folder, relative to the repository root.
+  branch: main  # Which branch of the repository should be used when creating links
+  
+latex:
+  latex_documents:
+    targetname: cap-pkgs.tex
+
+sphinx:
+  extra_extensions: [sphinx-prompt]
+  config:
+    bibtex_reference_style: super
+
+bibtex_bibfiles:
+    - bib/a.bib
+    - bib/b.bib
+    - bib/c.bib
+    - bib/d.bib
+    - bib/e.bib
+    - bib/f.bib
+    - bib/g.bib
+    - bib/h.bib
+    - bib/i.bib
+    - bib/j.bib
+    - bib/k.bib
+    - bib/l.bib
+    - bib/m.bib
+    - bib/n.bib
+    - bib/o.bib
+    - bib/p.bib
+    - bib/q.bib
+    - bib/r.bib
+    - bib/s.bib
+    - bib/t.bib
+    - bib/u.bib
+    - bib/v.bib
+    - bib/w.bib
+    - bib/x.bib
+    - bib/y.bib
+    - bib/z.bib
+
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks         : "force"  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
+
+#######################################################################################
+# Launch button settings
+launch_buttons:
+  binderhub_url             : ""  # The URL of the BinderHub (e.g., https://mybinder.org)
+
+#######################################################################################
+# HTML-specific settings
+html:
+  favicon                   : "images/logo.jpeg"  # A path to a favicon image
+  use_edit_page_button      : false  # Whether to add an "edit this page" button to pages. If `true`, repository information in repository: must be filled in
+  use_repository_button     : true  # Whether to add a link to your repository button
+  use_issues_button         : true  # Whether to add an "open an issue" button
+  extra_navbar              : By <a href="https://github.com/kamalsaleh/">Kamal Saleh</a> # & <a href="http://to-do.com">To Do</a> Will be displayed underneath the left navbar.
+  extra_footer              : ""  # Will be displayed underneath the footer.
+  google_analytics_id       : "UA-to-do"  # A GA id that can be used to track book views.
+  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
+  baseurl                   : "https://to-do.org/"  # The base URL where your book will be hosted.
